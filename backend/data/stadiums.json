@@ -1,0 +1,219 @@
+
+[
+  {
+    "id": 1,
+    "name": "Spotify Camp Nou",
+    "country": "Espanha",
+    "category": "licensed",
+    "club": "FC Barcelona",
+    "image": "https://i.postimg.cc/0zpVQkrX/CALMANOU.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Old Trafford",
+    "country": "Inglaterra",
+    "category": "licensed",
+    "club": "Manchester United",
+    "image": "https://i.postimg.cc/mt7Y3d40/oldtrafford.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Emirates Stadium",
+    "country": "Inglaterra",
+    "category": "licensed",
+    "club": "Arsenal",
+    "image": "https://i.postimg.cc/vxY4Wvvy/emiratesstadium.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Wembley Stadium connected by EE",
+    "country": "Inglaterra",
+    "category": "licensed",
+    "club": "Seleção Inglesa",
+    "image": "https://i.postimg.cc/7J0FGvb9/Wembley-Stadium-2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Giuseppe Meazza",
+    "country": "Itália",
+    "category": "licensed",
+    "club": "Inter de Milão",
+    "image": "https://i.postimg.cc/cvHFPyZw/giuseppemeazza.jpg"
+  },
+  {
+    "id": 6,
+    "name": "San Siro",
+    "country": "Itália",
+    "category": "licensed",
+    "club": "AC Milan",
+    "image": "https://i.postimg.cc/PCPBY8LZ/san-siro.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Signal Iduna Park",
+    "country": "Alemanha",
+    "category": "licensed",
+    "club": "Borussia Dortmund",
+    "image": "https://i.postimg.cc/KkqPP43c/signalidunapark.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Stadio Olimpico (S.S. Lazio)",
+    "country": "Itália",
+    "category": "licensed",
+    "club": "Lazio",
+    "image": "https://i.postimg.cc/Z9Yvw4Sv/stadiolimpico.jpg"
+  },
+  {
+    "id": 9,
+    "name": "New Balance Arena",
+    "country": "Itália",
+    "category": "licensed",
+    "club": "Atalanta",
+    "image": "https://i.postimg.cc/DWmL2nYj/newbalancearena.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Johan Cruijff ArenA",
+    "country": "Países Baixos",
+    "category": "licensed",
+    "club": "Ajax",
+    "image": "https://i.postimg.cc/qtthPQzD/johancruijffarena.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Estadio Banorte",
+    "country": "México",
+    "category": "licensed",
+    "club": "Club América",
+    "image": "https://i.postimg.cc/FkGHdJYJ/estadiobanorte.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Estadio AKRON",
+    "country": "México",
+    "category": "licensed",
+    "club": "CD Guadalajara",
+    "image": "https://i.postimg.cc/z3kS5zJ6/estadioakron.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Neo Química Arena",
+    "country": "Brasil",
+    "category": "licensed",
+    "club": "Corinthians",
+    "image": "https://i.postimg.cc/w7vJpD4f/neoquimicarena.jpg"
+  },
+  {
+    "id": 14,
+    "name": "MorumBIS",
+    "country": "Brasil",
+    "category": "licensed",
+    "club": "São Paulo",
+    "image": "https://i.postimg.cc/G9M8qH3j/morumbi.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Estádio Urbano Caldeira",
+    "country": "Brasil",
+    "category": "licensed",
+    "club": "Santos",
+    "image": "https://i.postimg.cc/PL3sBsC4/urbanocaldeira.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Mâs Monumental",
+    "country": "Argentina",
+    "category": "licensed",
+    "club": "River Plate",
+    "image": "https://i.postimg.cc/Js8shJpr/masmonumental.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Alberto J. Armando (La Bombonera)",
+    "country": "Argentina",
+    "category": "licensed",
+    "club": "Boca Juniors",
+    "image": "https://i.postimg.cc/tsvBbXzs/albertoj-Armando.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Saitama Stadium 2○○2",
+    "country": "Japão",
+    "category": "licensed",
+    "club": "Urawa Red Diamonds",
+    "image": "https://i.postimg.cc/q6pFR16J/saitama-Stadium.jpg"
+  },
+  {
+    "id": 19,
+    "name": "eFootball Stadium",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 20,
+    "name": "Estádio do Escorpião",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 21,
+    "name": "Estadio del Nuevo Triunfo",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 22,
+    "name": "Stadio Orione",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 23,
+    "name": "Burg Stadion",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 24,
+    "name": "Estadio del Martingal",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 25,
+    "name": "Rose Park Stadium",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 26,
+    "name": "Coliseo de los Deportes",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  },
+  {
+    "id": 27,
+    "name": "Sports Park",
+    "country": null,
+    "category": "generic",
+    "club": null,
+    "image": null
+  }
+]

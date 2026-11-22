@@ -1,0 +1,227 @@
+/* ==========================================================================
+   Design System 2.0 — eFootball Stadiums (Vibrante • Dark & Light)
+   Paleta esportiva moderna inspirada em transmissões e no universo eFootball:
+   Azul Cobalto Elétrico + Amarelo Volt + Verde Gramado.
+   ========================================================================== */
+
+:root {
+  /* Tipografia */
+  --font-display: 'Barlow Condensed', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Espaçamento e layout */
+  --container-max: 1260px;
+  --gutter: clamp(1rem, 3vw, 2rem);
+
+  /* Bordas */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* Transições */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 170ms var(--ease-out);
+  --transition-base: 260ms var(--ease-out);
+}
+
+/* --------------------------------------------------------------------------
+   Tema Escuro — Matchday Night (noite de estádio sob refletores)
+   -------------------------------------------------------------------------- */
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Superfícies em camadas */
+  --bg-canvas: #060b18;
+  --bg-surface: #0d1629;
+  --bg-elevated: #14223d;
+  --bg-header: rgba(6, 11, 24, 0.82);
+  --bg-glass: rgba(13, 22, 41, 0.72);
+  --bg-subtle: rgba(148, 185, 255, 0.07);
+  --bg-subtle-hover: rgba(148, 185, 255, 0.14);
+
+  /* Bordas e luz especular */
+  --border-subtle: rgba(148, 185, 255, 0.13);
+  --border-strong: rgba(148, 185, 255, 0.28);
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+  /* Textos */
+  --text-primary: #f4f8ff;
+  --text-secondary: #a2b4d0;
+  --text-muted: #6f84a6;
+
+  /* Acentos vibrantes eFootball */
+  --accent-primary: #1f7eff;
+  --accent-primary-hover: #3b91ff;
+  --accent-primary-soft: rgba(31, 126, 255, 0.18);
+
+  --accent-volt: #ffe600;
+  --accent-volt-hover: #ffef4d;
+  --accent-volt-text: #081022;
+  --accent-volt-soft: rgba(255, 230, 0, 0.16);
+
+  --accent-pitch: #00dc82;
+  --accent-pitch-soft: rgba(0, 220, 130, 0.17);
+
+  --accent-cyan: #00d2ff;
+  --accent-cyan-soft: rgba(0, 210, 255, 0.16);
+
+  --accent-danger: #ff4769;
+  --accent-danger-soft: rgba(255, 71, 105, 0.16);
+
+  /* Sombras e atmosfera de refletores no topo */
+  --shadow-sm: 0 4px 14px rgba(2, 6, 18, 0.45);
+  --shadow-md: 0 16px 36px -10px rgba(2, 6, 18, 0.72);
+  --shadow-lg: 0 28px 60px -14px rgba(1, 4, 14, 0.85);
+  --canvas-glow:
+    radial-gradient(ellipse 65% 42% at 15% -6%, rgba(31, 126, 255, 0.24), transparent 68%),
+    radial-gradient(ellipse 52% 36% at 88% -4%, rgba(0, 220, 130, 0.14), transparent 65%);
+  --hero-gradient: linear-gradient(135deg, #0d1d3e 0%, #091327 58%, #0a1f2d 100%);
+}
+
+/* --------------------------------------------------------------------------
+   Tema Claro — Daylight Championship (vibrante, nítido e energético)
+   -------------------------------------------------------------------------- */
+[data-theme='light'] {
+  color-scheme: light;
+
+  /* Superfícies */
+  --bg-canvas: #eef4fc;
+  --bg-surface: #ffffff;
+  --bg-elevated: #f6f9ff;
+  --bg-header: rgba(255, 255, 255, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.82);
+  --bg-subtle: rgba(15, 40, 95, 0.055);
+  --bg-subtle-hover: rgba(15, 40, 95, 0.1);
+
+  /* Bordas e luz especular */
+  --border-subtle: rgba(15, 40, 95, 0.1);
+  --border-strong: rgba(15, 40, 95, 0.22);
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+
+  /* Textos */
+  --text-primary: #0b162c;
+  --text-secondary: #415575;
+  --text-muted: #667999;
+
+  /* Acentos vibrantes com contraste AA/AAA no claro */
+  --accent-primary: #0057ff;
+  --accent-primary-hover: #0046d1;
+  --accent-primary-soft: rgba(0, 87, 255, 0.11);
+
+  --accent-volt: #ffd400;
+  --accent-volt-hover: #f0c400;
+  --accent-volt-text: #09142b;
+  --accent-volt-soft: rgba(255, 212, 0, 0.24);
+
+  --accent-pitch: #009e5c;
+  --accent-pitch-soft: rgba(0, 158, 92, 0.12);
+
+  --accent-cyan: #0088cc;
+  --accent-cyan-soft: rgba(0, 136, 204, 0.11);
+
+  --accent-danger: #e11d48;
+  --accent-danger-soft: rgba(225, 29, 72, 0.1);
+
+  /* Sombras e luz diurna */
+  --shadow-sm: 0 3px 12px rgba(11, 29, 68, 0.07);
+  --shadow-md: 0 16px 32px -10px rgba(11, 29, 68, 0.14);
+  --shadow-lg: 0 26px 52px -14px rgba(11, 29, 68, 0.2);
+  --canvas-glow:
+    radial-gradient(ellipse 68% 40% at 12% -8%, rgba(0, 87, 255, 0.12), transparent 65%),
+    radial-gradient(ellipse 52% 34% at 90% -6%, rgba(0, 185, 110, 0.1), transparent 62%);
+  --hero-gradient: linear-gradient(135deg, #ffffff 0%, #f1f6ff 60%, #edfbf4 100%);
+}
+
+/* ==========================================================================
+   Reset e Base Global
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  color: var(--text-primary);
+  background-color: var(--bg-canvas);
+  background-image: var(--canvas-glow);
+  background-attachment: fixed;
+  transition:
+    background-color var(--transition-base),
+    color var(--transition-base);
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: 0.015em;
+  color: var(--text-primary);
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Utilitários */
+.container {
+  width: min(var(--container-max), 100% - (var(--gutter) * 2));
+  margin-inline: auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
